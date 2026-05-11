@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обзоры - Pet Site Designer</title>
+    <link rel="stylesheet" href="content/css/reviews.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <iframe src="navigation.html" class="nav-frame"></iframe>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-left">
+                        <span class="hero-label">Наш блог и обзоры</span>
+                        <h1>Полезное для вас и ваших хвостиков</h1>
+                    </div>
+                    <div class="hero-right">
+                        <p class="hero-quote">"Мир питомцев полон открытий. Мы помогаем сделать каждое из них радостным и безопасным."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Article -->
+        <section class="featured">
+            <div class="container">
+                <div class="featured-card">
+                    <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1200&h=500&fit=crop" alt="Золотистый ретривер" class="featured-img">
+                    <div class="featured-overlay">
+                        <span class="tag tag-yellow">Собаки</span>
+                        <h2 class="featured-title">Как выбрать идеальный рацион для щенка золотистого ретривера</h2>
+                        <p class="featured-desc">Правильное питание в первый год жизни — залог здоровья и долголетия вашей собаки. Разбираем составы холистиков и...</p>
+                        <div class="featured-meta">
+                            <div class="author">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=40&h=40&fit=crop" alt="Анна Волкова" class="author-img">
+                                <div class="author-info">
+                                    <span class="author-name">Анна Волкова</span>
+                                    <span class="author-role">Ветеринар-диетолог</span>
+                                </div>
+                            </div>
+                            <div class="meta-right">
+                                <span class="meta-date">15 мая 2024</span>
+                                <span class="meta-time">8 мин</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-read">Читать полностью</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Content -->
+        <section class="blog-section">
+            <div class="container">
+                <div class="blog-grid">
+                    <!-- Articles -->
+                    <div class="articles">
+                        <div class="articles-header">
+                            <h2>Последние публикации <span class="count">6 статей</span></h2>
+                            <button class="filter-btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
+                                </svg>
+                                Фильтровать
+                            </button>
+                        </div>
+
+                        <!-- Article 1 -->
+                        <article class="article-card">
+                            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=300&h=200&fit=crop" alt="Кошка" class="article-img">
+                            <div class="article-body">
+                                <div class="article-top">
+                                    <span class="article-cat">Кошки</span>
+                                    <div class="article-actions">
+                                        <button class="icon-btn">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+                                            </svg>
+                                        </button>
+                                        <button class="icon-btn">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                                                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <h3 class="article-title">5 признаков того, что ваша кошка вас действительно любит</h3>
+                                <p class="article-text">Кошки выражают привязанность иначе, чем собаки. Узнайте, что означают...</p>
+                                <div class="article-footer">
+                                    <div class="author-small">
+                                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=32&h=32&fit=crop" alt="Дмитрий Кот" class="author-img-sm">
+                                        <div>
+                                            <span class="author-name-sm">Дмитрий Кот</span>
+                                            <span class="author-date-sm">12 мая 2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="article-stats">
+                                        <span>5 мин</span>
+                                        <span>12</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Article 2 -->
+                        <article class="article-card">
+                            <img src="https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=300&h=200&fit=crop" alt="Хамелеон" class="article-img">
+                            <div class="article-body">
+                                <div class="article-top">
+                                    <span class="article-cat">Экзотика</span>
+                                    <div class="article-actions">
+                                        <button class="icon-btn">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+                                            </svg>
+                                        </button>
+                                        <button class="icon-btn">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                                                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <h3 class="article-title">Обустройство террариума для начинающих: пошаговый гид</h3>
+                                <p class="article-text">Создаем идеальный микроклимат для вашей первой рептилии. Свет, влажность...</p>
+                                <div class="article-footer">
+                                    <div class="author-small">
+                                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=32&h=32&fit=crop" alt="Мария Рой" class="author-img-sm">
+                                        <div>
+                                            <span class="author-name-sm">Мария Рой</span>
+                                            <span class="author-date-sm">10 мая 2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="article-stats">
+                                        <span>12 мин</span>
+                                        <span>8</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Article 3 -->
+                        <article class="article-card">
+                            <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=300&h=200&fit=crop" alt="Собака" class="article-img">
+                            <div class="article-body">
+                                <div class="article-top">
+                                    <span class="article-cat">Уход</span>
+                                    <div class="article-actions">
+                                        <button class="icon-btn">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+                                            </svg>
+                                        </button>
+                                        <button class="icon-btn">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                                                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <h3 class="article-title">Груминг в домашних условиях: необходимые инструменты</h3>
+                                <p class="article-text">Экономим на салонах без вреда для внешнего вида. Топ-10 расчесок и...</p>
+                                <div class="article-footer">
+                                    <div class="author-small">
+                                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=32&h=32&fit=crop" alt="Елена Стиль" class="author-img-sm">
+                                        <div>
+                                            <span class="author-name-sm">Елена Стиль</span>
+                                            <span class="author-date-sm">08 мая 2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="article-stats">
+                                        <span>10 мин</span>
+                                        <span>15</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Pagination -->
+                        <div class="pagination">
+                            <span class="page active">1</span>
+                            <a href="#" class="page">2</a>
+                            <a href="#" class="page">3</a>
+                            <span class="page dots">...</span>
+                            <a href="#" class="page">12</a>
+                            <a href="#" class="page next">Дальше
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar -->
+                    <aside class="sidebar">
+                        <!-- Search -->
+                        <div class="sidebar-block">
+                            <h3 class="sidebar-title">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#facc15" stroke-width="2">
+                                    <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                                </svg>
+                                Поиск по блогу
+                            </h3>
+                            <div class="search-form">
+                                <input type="text" placeholder="Что вас интересует?" class="search-input">
+                                <button class="search-btn">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Categories -->
+                        <div class="sidebar-block">
+                            <h3 class="sidebar-title">Категории</h3>
+                            <div class="categories">
+                                <button class="cat-btn active">Все статьи</button>
+                                <button class="cat-btn">Собаки</button>
+                                <button class="cat-btn">Кошки</button>
+                                <button class="cat-btn">Экзотика</button>
+                                <button class="cat-btn">Уход</button>
+                                <button class="cat-btn">Здоровье</button>
+                                <button class="cat-btn">Обучение</button>
+                                <button class="cat-btn">Истории</button>
+                            </div>
+                        </div>
+
+                        <!-- Popular -->
+                        <div class="sidebar-block">
+                            <h3 class="sidebar-title">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#facc15" stroke-width="2">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                                Популярное сейчас
+                            </h3>
+                            <div class="popular-list">
+                                <a href="#" class="popular-item">
+                                    <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=60&h=60&fit=crop" alt="Собака">
+                                    <div class="popular-info">
+                                        <span class="popular-title">Топ-10 самых умных пород собак 2024</span>
+                                        <span class="popular-views">124 просмотров</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="popular-item">
+                                    <img src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=60&h=60&fit=crop" alt="Хомяк">
+                                    <div class="popular-info">
+                                        <span class="popular-title">Почему хомяки спят весь день?</span>
+                                        <span class="popular-views">98 просмотров</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="popular-item">
+                                    <img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=60&h=60&fit=crop" alt="Попугай">
+                                    <div class="popular-info">
+                                        <span class="popular-title">Психология попугаев: как понять птицу</span>
+                                        <span class="popular-views">5.4к просмотров</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- FAQ -->
+                        <div class="sidebar-block faq-block">
+                            <h3 class="sidebar-title">Частые вопросы</h3>
+                            <div class="faq-list">
+                                <div class="faq-item">
+                                    <span>Как стать автором?</span>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"/>
+                                    </svg>
+                                </div>
+                                <div class="faq-item">
+                                    <span>Как часто выходят статьи?</span>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-card">
+                    <h2>Подпишитесь на нашу рассылку, чтобы не пропустить важные советы!</h2>
+                    <p>Раз в неделю мы присылаем подборку лучших статей, промокоды на товары и анонсы мероприятий нашего питомника.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Ваш e-mail адрес" class="newsletter-input">
+                        <button class="newsletter-btn">Подписаться</button>
+                    </div>
+                    <span class="newsletter-note">Нажимая на кнопку, вы соглашаетесь с Политикой конфиденциальности. Никакого спама, только польза и полезности.</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <span>Pet Site Designer</span>
+                    </div>
+                    <p>Мы создаем идеальные условия для жизни ваших питомцев. Профессиональный уход и любовь в каждом сердце.</p>
+                    <div class="social">
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path fill="#1a1a1a" d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="#1a1a1a" stroke-width="2"/></svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Навигация</h4>
+                    <a href="catalog.html">Каталог</a>
+                    <a href="about.html">О нас</a>
+                    <a href="reviews.html">Обзоры</a>
+                    <a href="contacts.html">Контакты</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Услуги</h4>
+                    <a href="#">Передержка</a>
+                    <a href="#">Груминг</a>
+                    <a href="#">Дрессировка</a>
+                    <a href="#">Консультации</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Свяжитесь с нами</h4>
+                    <p class="contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#facc15" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        ул. Звериная, 42, Москва, 101000
+                    </p>
+                    <p class="contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#facc15" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        +7 (495) 123-45-67
+                    </p>
+                    <p class="contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#facc15" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        hello@petsitedesigner.ru
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>2024 Pet Site Designer. Все права защищены.</span>
+                <div class="footer-links">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Оферта</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
